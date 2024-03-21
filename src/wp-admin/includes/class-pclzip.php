@@ -48,7 +48,7 @@
   // 0 : PclZip Class integrated error handling
   // 1 : PclError external library error handling. By enabling this
   //     you must ensure that you have included PclError library.
-  // [2,...] : reserved for futur use
+  // [2,...] : reserved for future use
   if (!defined('PCLZIP_ERROR_EXTERNAL')) {
     define( 'PCLZIP_ERROR_EXTERNAL', 0 );
   }
